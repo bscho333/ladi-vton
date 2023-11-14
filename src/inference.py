@@ -41,7 +41,7 @@ def parse_args():
     parser.add_argument(
         "--output_dir",
         type=str,
-        required=True,
+        default="result",
         help="Path to the output directory",
     )
 
